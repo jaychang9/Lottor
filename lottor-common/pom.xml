@@ -139,26 +139,16 @@
             </plugin>
         </plugins>
     </build>
-    <distributionManagement>
-        <repository>
-            <id>all</id>
-            <name>all</name>
-            <url>http://192.168.1.100:8081/artifactory/all</url>
-        </repository>
-        <snapshotRepository>
-            <id>snapshots</id>
-            <name>simu-server-snapshots</name>
-            <url>http://192.168.1.100:8081/artifactory/all</url>
-        </snapshotRepository>
-    </distributionManagement>
-    <repositories>
-        <repository>
-            <id>all</id>
-            <snapshots>
-                <updatePolicy>always</updatePolicy>
-            </snapshots>
-            <name>all</name>
-            <url>http://192.168.1.100:8081/artifactory/all</url>
-        </repository>
-    </repositories>
+    <!--<distributionManagement>-->
+        <!--<repository>-->
+            <!--<id>zcckj_releases</id>-->
+            <!--<name>local private nexus</name>-->
+            <!--<url>http://nexus.zcckj.com/repository/zcckj_releases/</url>-->
+        <!--</repository>-->
+        <!--<snapshotRepository>-->
+            <!--<id>zcckj_snapshots</id>-->
+            <!--<name>local private nexus</name>-->
+            <!--<url>http://nexus.zcckj.com/repository/zcckj_snapshots/</url>-->
+        <!--</snapshotRepository>-->
+    <!--</distributionManagement>-->
 </project>

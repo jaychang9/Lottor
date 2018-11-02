@@ -36,7 +36,7 @@ spring:
         tags: master
         query-passing: true
 #      host: ${CONSUL_ADDRESS:192.168.1.204}
-      host: ${CONSUL_ADDRESS:localhost}
+      host: ${CONSUL_ADDRESS:192.168.56.104}
       port: ${CONSUL_PORT:8500}
     config:
       discovery:

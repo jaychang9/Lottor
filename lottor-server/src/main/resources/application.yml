@@ -1,6 +1,6 @@
 spring:
   rabbitmq:
-    host: localhost
+    host: 192.168.56.104
     port: 5672
     username: guest
     password: guest
@@ -10,14 +10,14 @@ spring:
     mongodb:
       authentication-database: lottor
       database: lottor
-      host: localhost
+      host: 192.168.56.104
       port: ${MONGO_PORT:27017}
 
 lottor:
   redis:
     cluster: false
 #      redirects: 20
-    hostName: localhost
+    hostName: 192.168.56.104
     port: 6379
   manager:
     netty:
